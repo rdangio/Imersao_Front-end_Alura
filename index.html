@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
     <link rel="stylesheet" href="./src/styles/vars.css">
     <link rel="stylesheet" href="src/styles/sidebar-footer.css" />
+    <link rel="stylesheet" href="./src/styles/main-content.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
     integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
@@ -41,7 +42,6 @@
                 </li>
             </ul>
         </nav>
-
         <div class="library">
             <div class="library__content">
                 <button class="library__button">
@@ -50,7 +50,6 @@
                 </button>
                 <span class="fa fa-plus"></span>
             </div>
-
             <section class="section-playlist">
                 <div class="section-playlist__content">
                     <span class="text title">Crie sua primeira playlist</span>
@@ -60,11 +59,9 @@
                     </button>
                 </div>
             </section>
-
             <div class="cookies">
                 <a href="">cookies</a>
             </div>
-
             <div class="languages">
                 <button class="languages__button">
                     <span class="fa fa-globe"></span>
@@ -73,10 +70,9 @@
             </div>
         </div>
     </div>
-
     <main>
         <div class="main-container">
-            <nav class="head__navigation">
+            <nav class="header__navigation">
                 <div class="navigation">
                     <button class="arrow-left">
                         <img src="./src/assets/icons/small-left.png" alt="seta esquerda">
@@ -84,29 +80,30 @@
                     <button class="arrow-right">
                         <img src="./src/assets/icons/small-right.png" alt="seta direita">
                     </button>
-                    <div class="header_search">
-                        <img src="./src/assets/icons/search.png" alt="">
-                        <input id="search-input" type="text">
-                    </div>
-
-                    
+                </div>    
+                <div class="header__search">
+                    <img src="./src/assets/icons/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?"/>
+                </div>
+                <div class="header__login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
+                </div>
                 </div>
             </nav>
         </div>
     </main>
-
     <footer class="disclaimer-premium">
         <div class="text">
-          <p class="disclaimer-premium__title">Testar o Premium de graça</p>
-          <p class="disclaimer-premium__subtitle">
-            Inscreva-se para curtir música ilimitada e podcasts só com alguns
-            anúncios. Não precisa de cartão de crédito.
-          </p>
+            <p class="disclaimer-premium__title">Testar o Premium de graça</p>
+            <p class="disclaimer-premium__subtitle">
+                Inscreva-se para curtir música ilimitada e podcasts só com alguns
+                anúncios. Não precisa de cartão de crédito.
+            </p>
         </div>
         <div class="button">
-          <button type="button">Inscreva-se grátis</button>
+            <button type="button">Inscreva-se grátis</button>
         </div>
-      </footer>
-    
+    </footer>
 </body>
 </html>  
